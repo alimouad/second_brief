@@ -70,6 +70,7 @@ h2{
     color: var(--secondary-color);
 }
 .section{
+    padding: 40px;
     margin: 4px 0;
 }
 img{
@@ -128,7 +129,7 @@ header li:hover a{
         h1{
             font-size: clamp(2rem, 5vw, 3rem);
             margin-bottom: 20px;
-            width: 70%;
+            max-width: 70%;
         }
     }
     .hero-img {
@@ -286,6 +287,9 @@ header li:hover a{
 @media screen and (max-width: 768px){
     .hero-section .hero-text {
             margin: 40px 0 0;
+            h1 {
+                max-width: 100%;
+            }
         }
     .hamburger-button {
         display: block;
@@ -293,7 +297,13 @@ header li:hover a{
     nav {
         display: none;
     }
+.section{
+    padding: 20px;
+}
     .signIn {
         display: none;
+    }
+    .grid {
+        justify-content: center;
     }
 }
