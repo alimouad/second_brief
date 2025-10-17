@@ -231,7 +231,7 @@ header li:hover a{
 
 /* how it works section********* */ 
 .howit-works {
-    .card:first-of-type {
+    .card:last-of-type {
         margin-top: 80px; 
     }
     .card{
