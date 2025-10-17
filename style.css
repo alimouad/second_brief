@@ -9,7 +9,9 @@
     --secondary-color: #8b39b4;
     --white-color:#fff;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--primary-color);
